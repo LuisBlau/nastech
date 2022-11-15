@@ -41,7 +41,7 @@
                 <!-- Captions -->
                 <h1>Inspiring Cloud Solutions</h1>
                 <h4 class="m-b-20">Cloud Infrastructure, both economic and effective.</h4>
-                <div><a href="#service-section" class="btn btn-danger">Explore more</a></div>
+                <div><a href="{{route('cloud')}}" class="btn btn-danger">Explore more</a></div>
                 <!-- end: Captions -->
             </div>
         </div>

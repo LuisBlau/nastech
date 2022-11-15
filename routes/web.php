@@ -15,6 +15,8 @@ use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('welcome');
-});
-
+})->name('welcome');
+Route::get('/cloud', function () {
+    return view('cloud');
+})->name('cloud');
 Route::post('/touchus', [ContactController::class, 'touch'])->name('contact.send');
