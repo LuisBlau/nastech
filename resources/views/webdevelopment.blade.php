@@ -114,14 +114,6 @@
     </section>
     <!-- end: SERVICES -->
 
-    <!-- CALL TO ACTION -->
-    <section class="row background-grey text-center">
-        <div class="container">
-            <h3>DO YOU LIKE WHAT YOU SEE</h3> <a href="#" class="btn btn-primary"><span>Buy POLO</span></a>
-        </div>
-    </section>
-    <!-- CALL TO ACTION -->
-
     <!-- CLIENTS -->
     <section>
         <div class="container">
@@ -132,43 +124,43 @@
 
             <ul class="grid grid-5-columns">
                 <li>
-                    <a href="#"><img src="images/clients/1.png" alt="">
+                    <a href="#"><img src="/media/clients/1.png" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/clients/2.png" alt="">
+                    <a href="#"><img src="/media/clients/2.png" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/clients/3.png" alt="">
+                    <a href="#"><img src="/media/clients/3.png" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/clients/4.png" alt="">
+                    <a href="#"><img src="/media/clients/4.png" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/clients/5.png" alt="">
+                    <a href="#"><img src="/media/clients/5.png" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/clients/6.png" alt="">
+                    <a href="#"><img src="/media/clients/6.png" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/clients/7.png" alt="">
+                    <a href="#"><img src="/media/clients/7.png" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/clients/8.png" alt="">
+                    <a href="#"><img src="/media/clients/8.png" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/clients/9.png" alt="">
+                    <a href="#"><img src="/media/clients/9.png" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/clients/10.png" alt="">
+                    <a href="#"><img src="/media/clients/10.png" alt="">
                     </a>
                 </li>
             </ul>
