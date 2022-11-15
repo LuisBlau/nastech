@@ -42,7 +42,7 @@
                             <li class="dropdown"><a href="#">Services</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="{{route('cloud')}}">Cloud Computing</a></li>
-                                    <li><a href="#">Cybersecurity</a></li>
+                                    <li><a href="{{route('cyber')}}">Cybersecurity</a></li>
                                     <li><a href="#">Project Management</a></li>
                                     <li><a href="#">SEO</a></li>
                                     <li><a href="#">Web Development</a></li>

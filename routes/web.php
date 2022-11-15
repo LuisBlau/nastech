@@ -19,4 +19,7 @@ Route::get('/', function () {
 Route::get('/cloud', function () {
     return view('cloud');
 })->name('cloud');
+Route::get('/cybersecurity', function () {
+    return view('cybersecurity');
+})->name('cyber');
 Route::post('/touchus', [ContactController::class, 'touch'])->name('contact.send');
