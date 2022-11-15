@@ -22,4 +22,7 @@ Route::get('/cloud', function () {
 Route::get('/cybersecurity', function () {
     return view('cybersecurity');
 })->name('cyber');
+Route::get('/projectmanagement', function () {
+    return view('projectmanagement');
+})->name('project');
 Route::post('/touchus', [ContactController::class, 'touch'])->name('contact.send');
