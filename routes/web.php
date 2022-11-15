@@ -25,4 +25,7 @@ Route::get('/cybersecurity', function () {
 Route::get('/projectmanagement', function () {
     return view('projectmanagement');
 })->name('project');
+Route::get('/seo', function () {
+    return view('seo');
+})->name('seo');
 Route::post('/touchus', [ContactController::class, 'touch'])->name('contact.send');
