@@ -28,4 +28,7 @@ Route::get('/projectmanagement', function () {
 Route::get('/seo', function () {
     return view('seo');
 })->name('seo');
+Route::get('/webdevelopment', function () {
+    return view('webdevelopment');
+})->name('webdev');
 Route::post('/touchus', [ContactController::class, 'touch'])->name('contact.send');

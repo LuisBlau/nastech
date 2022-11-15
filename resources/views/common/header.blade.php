@@ -45,7 +45,7 @@
                                     <li><a href="{{route('cyber')}}">Cybersecurity</a></li>
                                     <li><a href="{{route('project')}}">Project Management</a></li>
                                     <li><a href="{{route('seo')}}">SEO</a></li>
-                                    <li><a href="#">Web Development</a></li>
+                                    <li><a href="{{route('webdev')}}">Web Development</a></li>
                                     <li><a href="#">Web Design</a></li>
                                     <li><a href="#">App Development</a></li>
                                 </ul>
