@@ -37,4 +37,7 @@ Route::get('/contactus', function () {
 Route::get('/products', function () {
     return view('products');
 })->name('products');
+Route::get('/clients', function () {
+    return view('clients');
+})->name('clients');
 Route::post('/touchus', [ContactController::class, 'touch'])->name('contact.send');
