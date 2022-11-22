@@ -7,7 +7,7 @@
 
                         <div class="widget-title">Nascence Technologies</div>
                         <p class="mb-5">Your trusted advisor for technology.  All Rights Reserved. Copyright &copy; 2018</p>
-                        <a href="/contact" class="btn btn-inverted" target="_blank">Contact Us</a>
+                        <a href="{{route('contactus')}}" class="btn btn-inverted" target="_blank">Contact Us</a>
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -50,7 +50,7 @@
                             <div class="widget">
                                 <div class="widget-title">Support</div>
                                 <ul class="list">
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="{{route('contactus')}}">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>

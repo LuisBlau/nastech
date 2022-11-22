@@ -54,7 +54,7 @@
                             <li><a href="#">Clients</a></li>
                             <li><a href="#">Products</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="{{route('contactus')}}">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>
