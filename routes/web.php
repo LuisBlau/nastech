@@ -31,6 +31,12 @@ Route::get('/seo', function () {
 Route::get('/webdevelopment', function () {
     return view('webdevelopment');
 })->name('webdev');
+Route::get('/appdevelopment', function () {
+    return view('appdevelopment');
+})->name('appdev');
+Route::get('/webdesign', function () {
+    return view('webdesign');
+})->name('webdesign');
 Route::get('/contactus', function () {
     return view('contactus');
 })->name('contactus');

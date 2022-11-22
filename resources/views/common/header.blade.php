@@ -46,8 +46,8 @@
                                     <li><a href="{{route('project')}}">Project Management</a></li>
                                     <li><a href="{{route('seo')}}">SEO</a></li>
                                     <li><a href="{{route('webdev')}}">Web Development</a></li>
-                                    <li><a href="#">Web Design</a></li>
-                                    <li><a href="#">App Development</a></li>
+                                    <li><a href="{{route('webdesign')}}">Web Design</a></li>
+                                    <li><a href="{{route('appdev')}}">App Development</a></li>
                                 </ul>
                             </li>
                             <li><a href="{{route('government')}}">Government</a></li>

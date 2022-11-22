@@ -6,7 +6,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Nascenec Technologies LLC" />
     <meta name="description" content="Cutting edge of technology solutions">
-    <link rel="icon" type="image/png" href="media/logo.png">
+    <link rel="icon" type="image/png" href="{{ url('/media/logo.png') }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
     <title>Nascence Technologies</title>
