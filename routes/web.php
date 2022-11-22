@@ -40,4 +40,7 @@ Route::get('/products', function () {
 Route::get('/clients', function () {
     return view('clients');
 })->name('clients');
+Route::get('/government', function () {
+    return view('government');
+})->name('government');
 Route::post('/touchus', [ContactController::class, 'touch'])->name('contact.send');

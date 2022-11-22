@@ -38,11 +38,11 @@
                             <div class="widget">
                                 <div class="widget-title">Pages</div>
                                 <ul class="list">
-                                    <li><a href="#">Home</a></li>
+                                    <li><a href="{{route('welcome')}}">Home</a></li>
                                     <li><a href="#">Services</a></li>
-                                    <li><a href="#">Government</a></li>
-                                    <li><a href="#">Clients</a></li>
-                                    <li><a href="#">Products</a></li>
+                                    <li><a href="{{route('government')}}">Government</a></li>
+                                    <li><a href="{{route('clients')}}">Clients</a></li>
+                                    <li><a href="{{route('products')}}">Products</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -50,9 +50,9 @@
                                     <li><a href="#">App Development</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Government</a></li>
-                            <li><a href="#">Clients</a></li>
-                            <li><a href="#">Products</a></li>
+                            <li><a href="{{route('government')}}">Government</a></li>
+                            <li><a href="{{route('clients')}}">Clients</a></li>
+                            <li><a href="{{route('products')}}">Products</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="{{route('contactus')}}">Contact Us</a></li>
                         </ul>
