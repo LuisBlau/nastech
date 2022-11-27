@@ -52,4 +52,7 @@ Route::get('/government', function () {
 Route::get('/blogs', function () {
     return view('blogs');
 })->name('blogs');
+Route::get('/blog', function () {
+    return view('blog');
+})->name('blog');
 Route::post('/touchus', [ContactController::class, 'touch'])->name('contact.send');

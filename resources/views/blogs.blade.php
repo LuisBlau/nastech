@@ -14,15 +14,18 @@
                         <div class="post-item-wrap">
                             <div class="post-image">
                                 <a href="#">
-                                    <img alt="" src="/media/blog/12.jpg">
+                                    <img alt="" src="{{url('/media/blog/12.jpg')}}">
                                 </a>
                                 <span class="post-meta-category"><a href="">Lifestyle</a></span>
                             </div>
                             <div class="post-item-description">
                                 <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
                                 <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
-                                <h2><a href="#">Standard post with a single image
-                                    </a></h2>
+                                <h2>
+                                    <a href="{{ route('blog') }}">
+                                        Standard post with a single image
+                                    </a>
+                                </h2>
                                 <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
                                 <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
                             </div>
@@ -34,11 +37,11 @@
                         <div class="post-item-wrap">
                             <div class="post-slider">
                                 <div class="carousel dots-inside arrows-visible arrows-only" data-items="1" data-loop="true" data-autoplay="true" data-lightbox="gallery">
-                                    <a href="/media/blog/11.jpg" data-lightbox="gallery-image">
-                                        <img alt="" src="/media/blog/16.jpg">
+                                    <a href="{{url('/media/blog/11.jpg')}}" data-lightbox="gallery-image">
+                                        <img alt="" src="{{url('/media/blog/16.jpg')}}">
                                     </a>
-                                    <a href="/media/blog/16.jpg" data-lightbox="gallery-image">
-                                        <img alt="" src="/media/blog/11.jpg">
+                                    <a href="{{url('/media/blog/16.jpg')}}" data-lightbox="gallery-image">
+                                        <img alt="" src="{{url('/media/blog/11.jpg')}}">
                                     </a>
                                 </div>
                                 <span class="post-meta-category"><a href="">Technology</a></span>
@@ -97,7 +100,7 @@
                         <div class="post-item-wrap">
                             <div class="post-image">
                                 <a href="#">
-                                    <img alt="" src="/media/blog/17.jpg">
+                                    <img alt="" src="{{url('/media/blog/17.jpg')}}">
                                 </a>
                                 <span class="post-meta-category"><a href="">Science</a></span>
                             </div>
@@ -118,7 +121,7 @@
                         <div class="post-item-wrap">
                             <div class="post-audio">
                                 <a href="#">
-                                    <img alt="" src="/media/blog/audio-bg.jpg">
+                                    <img alt="" src="{{url('/media/blog/audio-bg.jpg')}}">
                                 </a>
                                 <span class="post-meta-category"><a href="">Audio</a></span>
                                 <audio class="video-js vjs-default-skin" controls preload="false" data-setup="{}">
@@ -194,7 +197,7 @@
                     <h4 class="widget-title">Recent Posts</h4>
                     <div class="post-thumbnail-list">
                         <div class="post-thumbnail-entry">
-                            <img alt="" src="/media/blog/thumbnail/5.jpg">
+                            <img alt="" src="{{url('/media/blog/thumbnail/5.jpg')}}">
                             <div class="post-thumbnail-content">
                                 <a href="#">A true story, that never been told!</a>
                                 <span class="post-date"><i class="icon-clock"></i> 6m ago</span>
@@ -202,7 +205,7 @@
                             </div>
                         </div>
                         <div class="post-thumbnail-entry">
-                            <img alt="" src="/media/blog/thumbnail/6.jpg">
+                            <img alt="" src="{{url('/media/blog/thumbnail/6.jpg')}}">
                             <div class="post-thumbnail-content">
                                 <a href="#">Beautiful nature, and rare feathers!</a>
                                 <span class="post-date"><i class="icon-clock"></i> 24h ago</span>
@@ -210,7 +213,7 @@
                             </div>
                         </div>
                         <div class="post-thumbnail-entry">
-                            <img alt="" src="/media/blog/thumbnail/7.jpg">
+                            <img alt="" src="{{url('/media/blog/thumbnail/7.jpg')}}">
                             <div class="post-thumbnail-content">
                                 <a href="#">Lorem ipsum dolor sit amet</a>
                                 <span class="post-date"><i class="icon-clock"></i> 11h ago</span>
@@ -244,7 +247,7 @@
                 <!--end: widget tags -->
                 <!--widget newsletter-->
                 <div class="widget  widget-newsletter">
-                    <form class="widget-subscribe-form" novalidate action="include/subscribe-form.php" role="form" method="post">
+                    <form class="widget-subscribe-form" novalidate action="#" role="form" method="post">
                         <h4 class="widget-title">Newsletter</h4>
                         <small>Stay informed on our latest news!</small>
                         <div class="input-group">
