@@ -17,7 +17,7 @@
                                 <div class="widget-title">Information</div>
                                 <ul class="list">
                                     <li><a href="#">Company Info</a></li>
-                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="{{route('blogs')}}">Blog</a></li>
                                 </ul>
                             </div>
                         </div>

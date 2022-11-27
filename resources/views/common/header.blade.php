@@ -53,7 +53,7 @@
                             <li><a href="{{route('government')}}">Government</a></li>
                             <li><a href="{{route('clients')}}">Clients</a></li>
                             <li><a href="{{route('products')}}">Products</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="{{route('blogs')}}">Blog</a></li>
                             <li><a href="{{route('contactus')}}">Contact Us</a></li>
                         </ul>
                     </nav>

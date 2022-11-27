@@ -49,4 +49,7 @@ Route::get('/clients', function () {
 Route::get('/government', function () {
     return view('government');
 })->name('government');
+Route::get('/blogs', function () {
+    return view('blogs');
+})->name('blogs');
 Route::post('/touchus', [ContactController::class, 'touch'])->name('contact.send');
